@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>EY Connect</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            body {
+                background-color: #e6f2ff;
+                /* uma cor de fundo mais clara */
+            }
+    
+            header {
+                background-image: url("header.jpg");
+                background-size: cover;
+                background-position: center;
+                color: white;
+            }
+    
+            .navbar {
+                background-color: #001429;
+                display: flex;
+                justify-content: center;
+            }
+    
+            .navbar .nav-link {
+                transition: all 0.2s ease;
+                /* animação suave ao passar o mouse */
+            }
+    
+            .navbar .nav-link:hover {
+                transform: scale(1.1);
+                /* aumenta ligeiramente o tamanho do link ao passar o mouse */
+                color: #FFD700;
+                /* muda a cor ao passar o mouse */
+            }
+    
+            .card {
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <header>
+            <h1 class="text-center">EY Connect</h1>
+        </header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">EY Connect</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pag_aplicacoes.html">Aplicações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="busca_vagas.html">Buscar Vagas</a>
+                        </li>
+                        <!-- More nav items as needed -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="mt-3 mb-5 text-center">Vaga XYZ</h1>
+                        <p><strong>Localização:</strong> São Paulo</p>
+                        <p><strong>Tipo:</strong> Remoto</p>
+
+                        <p><strong>Descrição:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btn btn-primary">Candidatar-se</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>© 2023 EY Connect. Todos os direitos reservados.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
